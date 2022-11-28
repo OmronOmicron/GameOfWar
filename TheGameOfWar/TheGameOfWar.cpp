@@ -10,6 +10,8 @@
 
 
 
+//THIS IS THE START OF THE PROJECT
+
 
 
 string theDeck[52] = {
