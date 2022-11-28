@@ -227,7 +227,7 @@ string TempPlaceHolder[20] = {
 
 
 //SHIFT PLAYER ONE CARDS BY ONE 
-string* p1ShiftOne(string p1Hand[52]) {
+string p1ShiftOne(string p1Hand[52]) {
 
 
    
@@ -245,13 +245,13 @@ string* p1ShiftOne(string p1Hand[52]) {
         }
     }
 
-    return p1Hand;
+    return p1Hand[52];
 }
 
 
 
 //SHIFT PLAYER TWO CARDS BY ONE 
-string* p2ShiftOne(string p2Hand[52]) {
+string p2ShiftOne(string p2Hand[52]) {
 
     int addOne = 1;
 
@@ -267,7 +267,7 @@ string* p2ShiftOne(string p2Hand[52]) {
         }
         
     }
-    return p2Hand;
+    return p2Hand[52];
 }
 
 
@@ -607,9 +607,19 @@ int main() {
         //HOLD PLAYER 1 PLAYED CARDS
 
         std::cout << "DISPLAYING TEMP PLACE HOLDER CARDS" << endl;
+
+        string p1PlayedCard = "NA";
+        string p2PlayedCard = "NA";
+        
         if (tieCount == 0) {
             TempPlaceHolder[0] = playerOneHand[0];
             TempPlaceHolder[1] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[0];
+            p2PlayedCard = TempPlaceHolder[1];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 2; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -618,6 +628,12 @@ int main() {
         else if (tieCount == 1) {
             TempPlaceHolder[2] = playerOneHand[0];
             TempPlaceHolder[3] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[2];
+            p2PlayedCard = TempPlaceHolder[3];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 4; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -626,6 +642,12 @@ int main() {
         else if (tieCount == 2) {
             TempPlaceHolder[4] = playerOneHand[0];
             TempPlaceHolder[5] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[4];
+            p2PlayedCard = TempPlaceHolder[5];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 6; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -634,6 +656,12 @@ int main() {
         else if (tieCount == 3) {
             TempPlaceHolder[6] = playerOneHand[0];
             TempPlaceHolder[7] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[6];
+            p2PlayedCard = TempPlaceHolder[7];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 8; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -642,6 +670,12 @@ int main() {
         else if (tieCount == 4) {
             TempPlaceHolder[8] = playerOneHand[0];
             TempPlaceHolder[9] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[8];
+            p2PlayedCard = TempPlaceHolder[9];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 10; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -650,6 +684,12 @@ int main() {
         else if (tieCount == 5) {
             TempPlaceHolder[10] = playerOneHand[0];
             TempPlaceHolder[11] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[10];
+            p2PlayedCard = TempPlaceHolder[11];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 12; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -658,6 +698,12 @@ int main() {
         else if (tieCount == 6) {
             TempPlaceHolder[12] = playerOneHand[0];
             TempPlaceHolder[13] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[12];
+            p2PlayedCard = TempPlaceHolder[13];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 14; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -666,6 +712,12 @@ int main() {
         else if (tieCount == 7) {
             TempPlaceHolder[14] = playerOneHand[0];
             TempPlaceHolder[15] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[14];
+            p2PlayedCard = TempPlaceHolder[15];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 16; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -674,6 +726,12 @@ int main() {
         else if (tieCount == 8) {
             TempPlaceHolder[16] = playerOneHand[0];
             TempPlaceHolder[17] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[16];
+            p2PlayedCard = TempPlaceHolder[17];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 18; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -682,6 +740,12 @@ int main() {
         else if (tieCount == 9) {
             TempPlaceHolder[18] = playerOneHand[0];
             TempPlaceHolder[19] = playerTwoHand[0];
+            p1PlayedCard = TempPlaceHolder[18];
+            p2PlayedCard = TempPlaceHolder[19];
+            std::cout << "Player1 Played Card:   " + p1PlayedCard;
+            std::cout << endl;
+            std::cout << "Player2 Played Card:   " + p2PlayedCard;
+            std::cout << endl;
             for (int i = 0; i < 20; i++) {
                 std::cout << TempPlaceHolder[i];
                 std::cout << endl;
@@ -731,14 +795,17 @@ int main() {
 
 
 
+        //fix here it should not be sening (playerOneHand[0]) into p1SendIntVal
+        //it should be sending the actual card that was placed by both players
+
         //FINDING FIRST TWO CHARACTERS OF P1 AND SETTING IT TO AN INT
         p1FindIntVal p1FindIntValInst;
-        p1FindIntValInst.p1SendIntVal(playerOneHand[0]);
+        p1FindIntValInst.p1SendIntVal(p1PlayedCard);
         int p1IntReadyForCompare = p1FindIntValInst.p1GetIntVal();
 
         //FINDING FIRST TWO CHARACTERS OF P2 AND SETTING IT TO AN INT
         p2FindIntVal p2FindIntValInst;
-        p2FindIntValInst.p2SendIntVal(playerTwoHand[0]);
+        p2FindIntValInst.p2SendIntVal(p2PlayedCard);
         int p2IntReadyForCompare = p2FindIntValInst.p2GetIntVal();
    
 

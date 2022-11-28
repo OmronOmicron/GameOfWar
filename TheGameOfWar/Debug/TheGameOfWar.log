@@ -1,11 +1,11 @@
 ﻿  TheGameOfWar.cpp
-C:\Users\adisi\source\repos\TheGameOfWar\TheGameOfWar\TheGameOfWar.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\adisi\source\repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(13,5): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
-C:\Users\adisi\source\repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(16,1): warning C4305: 'initializing': truncation from 'int' to 'char'
-C:\Users\adisi\source\repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(13,5): warning C4309: 'initializing': truncation of constant value
-C:\Users\adisi\source\repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(14,5): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
-C:\Users\adisi\source\repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(14,5): warning C4309: 'initializing': truncation of constant value
-C:\Users\adisi\source\repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(15,5): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
-C:\Users\adisi\source\repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(15,5): warning C4309: 'initializing': truncation of constant value
-C:\Users\adisi\source\repos\TheGameOfWar\TheGameOfWar\TheGameOfWar.cpp(1102,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  TheGameOfWar.vcxproj -> C:\Users\adisi\source\repos\TheGameOfWar\Debug\TheGameOfWar.exe
+C:\Users\adisi\Documents\Repos\TheGameOfWar\TheGameOfWar\TheGameOfWar.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\adisi\Documents\Repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(13,5): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\adisi\Documents\Repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(16,1): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\adisi\Documents\Repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(13,5): warning C4309: 'initializing': truncation of constant value
+C:\Users\adisi\Documents\Repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(14,5): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\adisi\Documents\Repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(14,5): warning C4309: 'initializing': truncation of constant value
+C:\Users\adisi\Documents\Repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(15,5): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\adisi\Documents\Repos\TheGameOfWar\TheGameOfWar\MISCELL.cpp(15,5): warning C4309: 'initializing': truncation of constant value
+C:\Users\adisi\Documents\Repos\TheGameOfWar\TheGameOfWar\TheGameOfWar.cpp(541,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TheGameOfWar.vcxproj -> C:\Users\adisi\Documents\Repos\TheGameOfWar\Debug\TheGameOfWar.exe
